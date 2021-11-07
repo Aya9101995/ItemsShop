@@ -1,0 +1,637 @@
+<?xml version="1.0" standalone="yes"?>
+<Mawaqaa-Tracking>
+  <Counts>
+    <Count ErrCount="10" />
+  </Counts>
+  <Error>
+    <ErrID>0</ErrID>
+    <ErrDate>06/11/2021 23:29</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage>{
+    "oItem": {
+        "ItemID": 2,
+        "image": "",
+        "price": 0.250,
+        "stockAmount": 7,
+        "isDeleted": false,
+        "description": "hello hello hello",
+        "name": "chipsi",
+        "languageID": 1
+    },
+    "APIKey": "123456",
+    "PageID": 1,
+    "PageSize": 10
+}</ErrPage>
+    <Msg>LINQ to Entities does not recognize the method 'Int32 CalculateItemStockAmount(Int64)' method, and this method cannot be translated into a store expression.</Msg>
+    <Trace>   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MemberInitTranslator.TypedTranslate(ExpressionConverter parent, MemberInitExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding&amp; binding)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression&amp; source, DbExpressionBinding&amp; sourceBinding, DbExpression&amp; lambda)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SelectTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression&amp; source, DbExpressionBinding&amp; sourceBinding, DbExpression&amp; lambda)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression&amp; source, DbExpressionBinding&amp; sourceBinding, DbExpression&amp; lambda)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__1()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Core.Models.Modules.Items.ItemsCOM.GetAvailableItems(Int32 languageID, Int32 PageID, Int32 PageSize) in C:\Users\ayaab\source\repos\ItemSales\Core\Models\Modules\Items\ItemsCOM.cs:line 27
+   at Core.Models.Modules.Items.ItemsCOM.SaveItem(ItemsModel oModel, Int32 PageID, Int32 PageSize) in C:\Users\ayaab\source\repos\ItemSales\Core\Models\Modules\Items\ItemsCOM.cs:line 109
+   at API.Models.APIs.ItemsAPI.ItemsAPI.SaveItem(ItemsRequestAPI oItemsRequestAPI) in C:\Users\ayaab\source\repos\Core\API\Models\APIs\ItemsAPI\ItemsAPI.cs:line 17
+   at API.Controllers.ServicesController.&lt;SaveItem&gt;d__0.MoveNext() in C:\Users\ayaab\source\repos\Core\API\Controllers\ServicesController.cs:line 26
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>1</ErrID>
+    <ErrDate>06/11/2021 23:32</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage>{
+    "oItem": {
+        "ItemID": 2,
+        "image": "",
+        "price": 0.250,
+        "stockAmount": 7,
+        "isDeleted": false,
+        "description": "hello hello hello",
+        "name": "chipsi",
+        "languageID": 1
+    },
+    "APIKey": "123456",
+    "PageID": 1,
+    "PageSize": 10
+}</ErrPage>
+    <Msg>LINQ to Entities does not recognize the method 'Int32 CalculateItemStockAmount(Int64)' method, and this method cannot be translated into a store expression.</Msg>
+    <Trace>   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MemberInitTranslator.TypedTranslate(ExpressionConverter parent, MemberInitExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding&amp; binding)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression&amp; source, DbExpressionBinding&amp; sourceBinding, DbExpression&amp; lambda)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SelectTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression&amp; source, DbExpressionBinding&amp; sourceBinding, DbExpression&amp; lambda)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression&amp; source, DbExpressionBinding&amp; sourceBinding, DbExpression&amp; lambda)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__1()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Core.Models.Modules.Items.ItemsCOM.GetAvailableItems(Int32 languageID, Int32 PageID, Int32 PageSize) in C:\Users\ayaab\source\repos\ItemSales\Core\Models\Modules\Items\ItemsCOM.cs:line 27
+   at Core.Models.Modules.Items.ItemsCOM.SaveItem(ItemsModel oModel, Int32 PageID, Int32 PageSize) in C:\Users\ayaab\source\repos\ItemSales\Core\Models\Modules\Items\ItemsCOM.cs:line 109
+   at API.Models.APIs.ItemsAPI.ItemsAPI.SaveItem(ItemsRequestAPI oItemsRequestAPI) in C:\Users\ayaab\source\repos\Core\API\Models\APIs\ItemsAPI\ItemsAPI.cs:line 17
+   at API.Controllers.ServicesController.&lt;SaveItem&gt;d__0.MoveNext() in C:\Users\ayaab\source\repos\Core\API\Controllers\ServicesController.cs:line 26
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>2</ErrID>
+    <ErrDate>06/11/2021 23:34</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage>{
+    "oItem": {
+        "ItemID": 2,
+        "image": "",
+        "price": 0.250,
+        "stockAmount": 7,
+        "isDeleted": false,
+        "description": "hello hello hello",
+        "name": "chipsi",
+        "languageID": 1
+    },
+    "APIKey": "123456",
+    "PageID": 1,
+    "PageSize": 10
+}</ErrPage>
+    <Msg>LINQ to Entities does not recognize the method 'Int32 CalculateItemStockAmount(Int64)' method, and this method cannot be translated into a store expression.</Msg>
+    <Trace>   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MemberInitTranslator.TypedTranslate(ExpressionConverter parent, MemberInitExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding&amp; binding)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression&amp; source, DbExpressionBinding&amp; sourceBinding, DbExpression&amp; lambda)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SelectTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression&amp; source, DbExpressionBinding&amp; sourceBinding, DbExpression&amp; lambda)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression&amp; source, DbExpressionBinding&amp; sourceBinding, DbExpression&amp; lambda)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__1()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Core.Models.Modules.Items.ItemsCOM.GetAvailableItems(Int32 languageID, Int32 PageID, Int32 PageSize) in C:\Users\ayaab\source\repos\ItemSales\Core\Models\Modules\Items\ItemsCOM.cs:line 27
+   at Core.Models.Modules.Items.ItemsCOM.SaveItem(ItemsModel oModel, Int32 PageID, Int32 PageSize) in C:\Users\ayaab\source\repos\ItemSales\Core\Models\Modules\Items\ItemsCOM.cs:line 109
+   at API.Models.APIs.ItemsAPI.ItemsAPI.SaveItem(ItemsRequestAPI oItemsRequestAPI) in C:\Users\ayaab\source\repos\Core\API\Models\APIs\ItemsAPI\ItemsAPI.cs:line 17
+   at API.Controllers.ServicesController.&lt;SaveItem&gt;d__0.MoveNext() in C:\Users\ayaab\source\repos\Core\API\Controllers\ServicesController.cs:line 26
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>3</ErrID>
+    <ErrDate>06/11/2021 23:34</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage>{
+    "oItem": {
+        "ItemID": 2,
+        "image": "",
+        "price": 0.250,
+        "stockAmount": 7,
+        "isDeleted": false,
+        "description": "hello hello hello",
+        "name": "chipsi",
+        "languageID": 1
+    },
+    "APIKey": "123456",
+    "PageID": 1,
+    "PageSize": 10
+}</ErrPage>
+    <Msg>LINQ to Entities does not recognize the method 'Int32 CalculateItemStockAmount(Int64)' method, and this method cannot be translated into a store expression.</Msg>
+    <Trace>   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MemberInitTranslator.TypedTranslate(ExpressionConverter parent, MemberInitExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding&amp; binding)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression&amp; source, DbExpressionBinding&amp; sourceBinding, DbExpression&amp; lambda)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SelectTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression&amp; source, DbExpressionBinding&amp; sourceBinding, DbExpression&amp; lambda)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression&amp; source, DbExpressionBinding&amp; sourceBinding, DbExpression&amp; lambda)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__1()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Core.Models.Modules.Items.ItemsCOM.GetAvailableItems(Int32 languageID, Int32 PageID, Int32 PageSize) in C:\Users\ayaab\source\repos\ItemSales\Core\Models\Modules\Items\ItemsCOM.cs:line 27
+   at Core.Models.Modules.Items.ItemsCOM.SaveItem(ItemsModel oModel, Int32 PageID, Int32 PageSize) in C:\Users\ayaab\source\repos\ItemSales\Core\Models\Modules\Items\ItemsCOM.cs:line 109
+   at API.Models.APIs.ItemsAPI.ItemsAPI.SaveItem(ItemsRequestAPI oItemsRequestAPI) in C:\Users\ayaab\source\repos\Core\API\Models\APIs\ItemsAPI\ItemsAPI.cs:line 17
+   at API.Controllers.ServicesController.&lt;SaveItem&gt;d__0.MoveNext() in C:\Users\ayaab\source\repos\Core\API\Controllers\ServicesController.cs:line 26
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>4</ErrID>
+    <ErrDate>07/11/2021 00:53</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey": "123456",
+    "name": "Aya Abdelmonem",
+    "email": "aya.abdelmonem95@gmail.com",
+    "defaultLanguageID": 1,
+    "password": "12345"
+}</ErrPage>
+    <Msg>Non-static method requires a target.</Msg>
+    <Trace>   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.TryGetFieldOrPropertyValue(MemberExpression me, Object instance, Object&amp; memberValue)
+   at System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.TryEvaluatePath(Expression expression, ConstantExpression&amp; constantExpression)
+   at System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.EvaluateParameter(Object[] arguments)
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__1()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.&lt;&gt;c__14`1.&lt;GetElementFunction&gt;b__14_1(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at Core.Models.Modules.Users.UsersCOM.Register(UsersModel oModel) in C:\Users\ayaab\source\repos\ItemSales\Core\Models\Modules\Users\UsersCOM.cs:line 24
+   at API.Models.APIs.UsersAPI.UsersAPI.Register(UsersRequestAPI oUsersRequestAPI) in C:\Users\ayaab\source\repos\Core\API\Models\APIs\UsersAPI\UsersAPI.cs:line 73
+   at API.Controllers.ServicesController.&lt;Register&gt;d__5.MoveNext() in C:\Users\ayaab\source\repos\Core\API\Controllers\ServicesController.cs:line 99
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>5</ErrID>
+    <ErrDate>07/11/2021 01:02</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey": "123456"
+}</ErrPage>
+    <Msg>The method 'Skip' is only supported for sorted input in LINQ to Entities. The method 'OrderBy' must be called before the method 'Skip'.</Msg>
+    <Trace>   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.OrderByLifter.PassthroughOrderByLifter.Skip(DbExpression k)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Skip(DbExpressionBinding input, DbExpression skipCount)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SkipTranslator.TranslatePagingOperator(ExpressionConverter parent, DbExpression operand, DbExpression count)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.PagingTranslator.TranslateUnary(ExpressionConverter parent, DbExpression operand, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__1()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Core.Models.Modules.Users.UsersCOM.GetAllUsers(Int32 PageID, Int32 PageSize) in C:\Users\ayaab\source\repos\ItemSales\Core\Models\Modules\Users\UsersCOM.cs:line 73
+   at API.Models.APIs.UsersAPI.UsersAPI.GetAllUsers(UsersRequestAPI oUsersRequestAPI) in C:\Users\ayaab\source\repos\Core\API\Models\APIs\UsersAPI\UsersAPI.cs:line 54
+   at API.Controllers.ServicesController.&lt;GetAllUsers&gt;d__9.MoveNext() in C:\Users\ayaab\source\repos\Core\API\Controllers\ServicesController.cs:line 156
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>6</ErrID>
+    <ErrDate>07/11/2021 01:02</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey": "123456",
+    "PageID": 1,
+    "PageSize": 10
+}</ErrPage>
+    <Msg>The method 'Skip' is only supported for sorted input in LINQ to Entities. The method 'OrderBy' must be called before the method 'Skip'.</Msg>
+    <Trace>   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.OrderByLifter.PassthroughOrderByLifter.Skip(DbExpression k)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Skip(DbExpressionBinding input, DbExpression skipCount)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SkipTranslator.TranslatePagingOperator(ExpressionConverter parent, DbExpression operand, DbExpression count)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.PagingTranslator.TranslateUnary(ExpressionConverter parent, DbExpression operand, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.UnarySequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__1()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Core.Models.Modules.Users.UsersCOM.GetAllUsers(Int32 PageID, Int32 PageSize) in C:\Users\ayaab\source\repos\ItemSales\Core\Models\Modules\Users\UsersCOM.cs:line 73
+   at API.Models.APIs.UsersAPI.UsersAPI.GetAllUsers(UsersRequestAPI oUsersRequestAPI) in C:\Users\ayaab\source\repos\Core\API\Models\APIs\UsersAPI\UsersAPI.cs:line 54
+   at API.Controllers.ServicesController.&lt;GetAllUsers&gt;d__9.MoveNext() in C:\Users\ayaab\source\repos\Core\API\Controllers\ServicesController.cs:line 156
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>7</ErrID>
+    <ErrDate>07/11/2021 02:33</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey": "123456",
+    "lstInvoices": [
+        {
+            "itemID": 4,
+            "quantity": 2,
+            "itemUnitPrice": 0.25
+        }
+    ]
+}</ErrPage>
+    <Msg>Object reference not set to an instance of an object.</Msg>
+    <Trace>   at Core.Models.Modules.Invoices.InvoicesCOM.PlaceOrder(List`1 lstItems, Int64 UserID, Int32 LanguageID) in C:\Users\ayaab\source\repos\ItemSales\Core\Models\Modules\Invoices\InvoicesCOM.cs:line 134
+   at API.Models.APIs.InvoicesAPI.InvoicesAPI.PlaceOrder(InvoiceRequestAPI oInvoiceRequestAPI) in C:\Users\ayaab\source\repos\Core\API\Models\APIs\InvoicesAPI\InvoicesAPI.cs:line 19
+   at API.Controllers.ServicesController.&lt;PlaceOrder&gt;d__10.MoveNext() in C:\Users\ayaab\source\repos\Core\API\Controllers\ServicesController.cs:line 174
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>8</ErrID>
+    <ErrDate>07/11/2021 02:33</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey": "123456",
+    "lstInvoiceItems": [
+        {
+            "itemID": 4,
+            "quantity": 2,
+            "itemUnitPrice": 0.25
+        }
+    ]
+}</ErrPage>
+    <Msg>Object reference not set to an instance of an object.</Msg>
+    <Trace>   at API.Models.APIs.InvoicesAPI.InvoicesAPI.PlaceOrder(InvoiceRequestAPI oInvoiceRequestAPI) in C:\Users\ayaab\source\repos\Core\API\Models\APIs\InvoicesAPI\InvoicesAPI.cs:line 20
+   at API.Controllers.ServicesController.&lt;PlaceOrder&gt;d__10.MoveNext() in C:\Users\ayaab\source\repos\Core\API\Controllers\ServicesController.cs:line 174
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>9</ErrID>
+    <ErrDate>07/11/2021 02:36</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey": "123456",
+    "lstInvoiceItems": [
+        {
+            "itemID": 4,
+            "quantity": 2,
+            "itemUnitPrice": 0.25
+        }
+    ]
+}</ErrPage>
+    <Msg>Object reference not set to an instance of an object.</Msg>
+    <Trace>   at API.Models.APIs.InvoicesAPI.InvoicesAPI.PlaceOrder(InvoiceRequestAPI oInvoiceRequestAPI) in C:\Users\ayaab\source\repos\Core\API\Models\APIs\InvoicesAPI\InvoicesAPI.cs:line 20
+   at API.Controllers.ServicesController.&lt;PlaceOrder&gt;d__10.MoveNext() in C:\Users\ayaab\source\repos\Core\API\Controllers\ServicesController.cs:line 174
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+</Mawaqaa-Tracking>
